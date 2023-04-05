@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+body{
+    background-color: rgb(226, 220, 220);
+}
+.container{
+    background-color: aqua;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+  
+}
+header{
+
+}
+.prof-image{
+    width: 100px;
+    height: 120px;
+    border: 2px solid white;
+    border-radius: 50%;
+    float: left;
+}
+.heading-bio{
+    float: left;
+    padding: 20px;
+}
+.header-contact {
+    float: right;
+   
+    padding: 20px;
+    border-radius: 10px;
+    
+  
+}
+.header-contact a{
+    text-decoration: none;
+    color: rgb(0, 60, 128);
+    font-weight: bold;
+   
+}
+.header-contact a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.clear-div{
+    clear: both;
+}
+hr{
+    border: 3px solid black;
+    border-bottom: none;
+    margin: 20px auto;
+    width: 100%;
+}
+#content{
+    margin: 20px auto;
+
+}
+.left-div{
+    color:blue;
+    width: 30%;
+    float: left;
+
+}
+.right-div{
+     font-weight: bold;
+    width: 70%;
+    float: left;
+}
+.common-hr{
+    border: 2px solid black;
+    border-bottom: none;
+}
+h1,h2,h3,h4,h5,h6{
+    color: chocolate;
+    font-weight: bold;
+}
+.right-div-left{
+    float: left;
+    width: 45%;
+    
+}
+.right-div-right{
+    float: right;
+    width: 45%;
+
+}
+.footer-content{
+    width: 100%;
+    background-color: wheat;
+    text-align: center;
+    padding: 20px;
+    font-weight: bolder;
+}
+.footer-content a{
+    color: rgb(200, 42, 171);
+    text-decoration: none;
+    padding: 20px;
+}
+.footer-content a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.footer-content p{
+margin-top: 20px;
+}
